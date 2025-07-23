@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./Font_Awesome/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <title>Mopile_App_Homepage</title>
+</head>
+<body>
+    <header id="home" class="home">
+        <div class="container">
+            <nav class="nav-bar">
+            <a class="logo" href="#">CodingFun</a>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <ul class="btns">
+                <li><a class="in" href="#">Sign In</a></li>
+                <li><a class="up" href="#">Sign Up</a></li>
+            </ul>
+        </nav>
+        </div>
+        <section class="body">
+            <div class="container">
+                <div class="info">
+                    <h2>Mobile App Development</h2>
+                    <p>Join us in the exciting world of programming and turn your ideas into reality. 
+                        Unlock the world of endless possibilities - learn to code and shape the digital future with us.
+                    </p>
+                    <div class="links">
+                        <a class="active" href="#">Join Now</a>
+                        <a class="more" href="#">Learn More</a>
+                    </div>
+                </div>
+                <img src="./images/hero-bg.png" alt="Mobile_App" class="image">
+            </div>
+        </section>
+    </header>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+
+    // Toggle burger menu
+    const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.querySelector(".nav-links");
+
+    hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navLinks.classList.toggle("show");
+    });
+    </script>
+</body>
+</html>
