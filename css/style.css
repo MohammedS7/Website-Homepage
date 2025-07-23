@@ -68,16 +68,6 @@ ul {
     flex-wrap: wrap;
     padding: 30px 0 10px;
 }
-
-.home .nav-bar .logo {
-    color: #fff;
-    font-size: 30px;
-    font-weight: bold;
-}
-.home .nav-bar .nav-links {
-    display: flex;
-    align-items: center;
-}
 @media (max-width: 767px) {
     .home .nav-bar {
         display: flex;
@@ -86,6 +76,15 @@ ul {
         padding-top: 50px;
         gap: 35px;
     }
+}
+.home .nav-bar .logo {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+.home .nav-bar .nav-links {
+    display: flex;
+    align-items: center;
 }
 @media (max-width: 990px) {
     .home .nav-bar .nav-links {
