@@ -142,7 +142,7 @@ ul {
 }
 @media (max-width: 767px) {
     .home .body .info {
-        padding: 0 100px;
+        padding: 0 120px;
         top: 50%;
         transform: translateY(20%);
     } 
