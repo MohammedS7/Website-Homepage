@@ -145,7 +145,7 @@ ul {
         padding: 0 120px;
         top: 50%;
         transform: translateY(20%);
-        overflow-x: hidden;
+        width: 100%;
     } 
 }
 @media (min-width: 768px) and (max-width: 990px) {
