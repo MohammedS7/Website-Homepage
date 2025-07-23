@@ -78,6 +78,15 @@ ul {
     display: flex;
     align-items: center;
 }
+@media (max-width: 767px) {
+    .home .nav-bar {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 50px;
+        gap: 35px;
+    }
+}
 @media (max-width: 990px) {
     .home .nav-bar .nav-links {
         display: none;
@@ -135,7 +144,8 @@ ul {
 @media (max-width: 767px) {
     .home .body .info {
         padding: 0 100px;
-        transform: translateY(50%);
+        top: 50%;
+        transform: translateY(20%);
     } 
 }
 @media (min-width: 768px) and (max-width: 990px) {
